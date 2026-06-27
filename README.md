@@ -1,84 +1,100 @@
-# SQL Learning Journey 🚀
+# SQL Learning 🚀
 
-## About This Repository
-
-Welcome to my SQL Learning Journey repository.
-
-This repository documents my day-by-day progress as I learn SQL and PostgreSQL from scratch. It serves as a structured learning journal, practice workspace, and portfolio showcasing my consistency, problem-solving skills, and database development knowledge.
-
-The goal is not only to learn SQL syntax but also to build a strong foundation in database design, querying, optimization, and real-world database projects.
+> A hands-on SQL learning repository documenting my journey from SQL fundamentals to advanced database concepts through practical projects and real-world query practice.
 
 ---
 
-## Learning Objectives
+# About
 
-* Understand relational database concepts
-* Master SQL fundamentals
-* Learn PostgreSQL database development
-* Practice database design and normalization
+This repository contains my SQL learning journey, where I practice concepts by building mini database projects instead of simply solving isolated exercises.
+
+The objective is to strengthen my understanding of SQL, relational databases, PostgreSQL, and database design by applying concepts in realistic scenarios.
+
+---
+
+# Goals
+
+* Learn SQL from beginner to advanced
+* Master PostgreSQL
 * Build real-world database projects
-* Improve query writing and problem-solving skills
-* Develop backend database knowledge for software engineering
+* Improve query writing and analytical thinking
+* Practice database design and normalization
+* Prepare for backend development and technical interviews
 
 ---
 
-## Technologies
+# Technologies
 
 * SQL
 * PostgreSQL
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```text
 SQL-Learning/
 │
-├── Day-01/
-├── Day-02/
-├── Day-03/
-│
-├── Projects/
+├── Project-01-Library-Management/
+├── Project-02-Employee-Analytics/
+├── Project-03-Student-Management/
+├── Project-04/
 │
 ├── Resources/
 │
 └── README.md
 ```
 
-Each day folder contains:
+Each project contains:
 
-* SQL scripts
-* Practice exercises
-* Notes
-* Query examples
-* Learning summaries
+* Database creation
+* Table design
+* Sample data
+* SQL queries
+* Problem statements
+* Learning notes (optional)
 
 ---
 
-## Topics Covered
+# SQL Concepts Covered
 
-### SQL Fundamentals
+## Database Fundamentals
 
-* Database Creation
-* Tables
+* CREATE DATABASE
+* CREATE TABLE
 * Data Types
 * Constraints
+* Primary Keys
+* Foreign Keys
+
+## Data Manipulation
+
 * INSERT
+* UPDATE
+* DELETE
+
+## Data Retrieval
+
 * SELECT
 * WHERE
 * ORDER BY
 * LIMIT
 * DISTINCT
 
-### Data Manipulation
+## Aggregate Functions
 
-* UPDATE
-* DELETE
-* Aggregate Functions
+* COUNT()
+* SUM()
+* AVG()
+* MIN()
+* MAX()
+
+## Grouping
+
 * GROUP BY
 * HAVING
 
-### Joins
+## Joins
 
 * INNER JOIN
 * LEFT JOIN
@@ -86,92 +102,76 @@ Each day folder contains:
 * FULL JOIN
 * SELF JOIN
 
-### Advanced SQL
+## Advanced SQL
 
 * Subqueries
+* Common Table Expressions (CTEs)
 * Views
 * Indexes
 * Stored Procedures
 * Triggers
 * Transactions
 
-### Database Design
+## Database Design
 
-* ER Diagrams
 * Relationships
+* ER Modeling
 * Normalization
 * Schema Design
 
-### PostgreSQL
+---
 
-* PostgreSQL Fundamentals
-* Advanced PostgreSQL Features
-* Performance Optimization
+# Projects Completed
+
+| Project    | Description               | Concepts                                                              |
+| ---------- | ------------------------- | --------------------------------------------------------------------- |
+| Project-01 | Library Management System | CRUD Operations, Constraints, Filtering, Sorting, Aggregate Functions |
+| Project-02 | Employee Analytics        | GROUP BY, Aggregate Functions, Multi-column Grouping                  |
+| Project-03 | Coming Soon               | -                                                                     |
+| Project-04 | Coming Soon               | -                                                                     |
 
 ---
 
-## Projects
-
-Projects developed during this learning journey will be stored in the `Projects` directory.
-
-Examples:
-
-* Library Management Database
-* Student Management System
-* Inventory Management System
-* Employee Database
-* Banking Database
-* E-Commerce Database
-
----
-
-## Progress Tracker
-
-| Day    | Topic            | Status |
-| ------ | ---------------- | ------ |
-| Day-01 | SQL Fundamentals | ✅      |
-| Day-02 | In Progress      | ⏳      |
-| Day-03 | Upcoming         | ⏳      |
-
-This table will be updated as the learning journey progresses.
-
----
-
-## Key Skills Being Developed
+# Skills Demonstrated
 
 * Database Design
-* Query Writing
+* SQL Query Writing
+* CRUD Operations
+* Aggregate Functions
 * Data Analysis
-* Problem Solving
-* Relational Database Management
-* PostgreSQL Development
-* Backend Database Fundamentals
+* Reporting Queries
+* Relational Database Concepts
+* Query Optimization (Upcoming)
+* PostgreSQL Development (Upcoming)
 
 ---
 
-## Future Goals
+# Future Learning Roadmap
 
-* Complete SQL Fundamentals
-* Master PostgreSQL
-* Build End-to-End Database Projects
-* Learn Query Optimization
-* Learn Database Performance Tuning
-* Integrate Databases with Backend Applications
-
----
-
-## Why This Repository?
-
-This repository reflects:
-
-* Consistent learning
-* Hands-on practice
-* Real-world database development
-* Continuous improvement
-* Portfolio-ready documentation
+* Joins
+* Subqueries
+* Views
+* Indexes
+* Stored Procedures
+* Triggers
+* Transactions
+* Window Functions
+* Common Table Expressions (CTEs)
+* Query Optimization
+* PostgreSQL Advanced Features
 
 ---
 
-### Learning One Query at a Time 💡
+# Repository Purpose
 
+This repository reflects my continuous learning and practical implementation of SQL concepts through progressively challenging database projects.
 
+Each project focuses on applying newly learned concepts to reinforce understanding and improve problem-solving skills.
+
+---
+
+# Connect
+
+If you're exploring SQL learning resources or reviewing my work, feel free to browse the projects and follow my progress.
+
+⭐ If you find this repository useful, consider giving it a star.
